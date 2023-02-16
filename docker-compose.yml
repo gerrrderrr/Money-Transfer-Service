@@ -1,0 +1,8 @@
+version: "3"
+services:
+  appServer:
+    image: server
+    build: ./
+    container_name: serverContainer
+    ports:
+      - '5500:5580'
